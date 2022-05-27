@@ -1,4 +1,6 @@
 # ColorPallete
+Aim of this project is to build a colour palette picker similar to apps like [Coolors](https://coolors.co/).
+
 ## Required features 
 - Built with HTML, CSS & JS
 - Code hosted on GitHub
