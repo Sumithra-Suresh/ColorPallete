@@ -1,4 +1,4 @@
-# ColorPalette
+# Color Palette Generator 
 Aim of this project is to build a colour palette picker similar to apps like [Coolors](https://coolors.co/).
 
 ## Required features 
