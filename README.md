@@ -1,5 +1,5 @@
 # ColorPallete
-##Required features 
+## Required features 
 -Built with HTML, CSS & JS
 -Code hosted on GitHub
 -Deployed to GitHub Pages
