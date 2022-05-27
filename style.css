@@ -1,0 +1,117 @@
+/*=======================================================================================*/
+/*                                  Global                                               */
+/*=======================================================================================*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html{    
+    background-color: #eae5e5;
+    color: #4d4d4d;
+    font-family: monospace, serif;
+    font-size: 1rem;
+    height: 100%;
+    padding: 10px;
+    width: 100%;
+}
+
+.dull--line{
+    border-top: 1px solid #d6d6d6;
+}
+
+.header__title{
+    color: blue;
+}
+
+.header__subtitle{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.font-sm{
+    color: darkgray;
+    font-size: 0.99rem;
+}
+
+/*=======================================================================================*/
+/*                                  Color Container                                      */
+/*=======================================================================================*/
+.container{
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    height: 80%;
+    justify-content: stretch;
+    width: 100%;
+}
+
+.container__box{
+    flex: 1;
+}
+
+.container__box-btn{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+    margin-top: 15rem;
+    text-align: center;
+}
+
+/*=======================================================================================*/
+/*                             FontAwesome Icon & Tooltip Text                           */
+/*=======================================================================================*/
+.fa-icon{
+    font-size: 2rem;
+    position: relative;
+}
+
+.fa-icon:hover .container__tooltip-text {
+    visibility: visible;
+}
+
+.container__tooltip-text {
+    background-color: grey;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 0.7rem;
+    padding: 5px;
+    position: absolute;
+    text-align: center;  
+    text-transform: capitalize;
+    visibility: hidden;
+    width: 100px;
+    z-index: 1;
+}
+
+/*=======================================================================================*/
+/*                              Copy Confirmation Message                                */
+/*=======================================================================================*/
+.copy-confirmation{
+    bottom: 30px;
+    border-radius: 5px;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    left: 39%;
+    padding: 10px;
+    position: absolute;
+}
+
+/*=======================================================================================*/
+/*                                      Color Wizard                                     */
+/*=======================================================================================*/
+.container__color-wizard{
+    border: none;
+    height: 34px;
+    opacity: 0;
+    outline: none;
+    padding: 0;
+    position: absolute;
+    right: 1px;
+    width: 34px;
+}

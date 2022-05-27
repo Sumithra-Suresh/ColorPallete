@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Color Palette</title>
+
+        <!-- Link to Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <!-- Link to stylesheet -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="header__title">Color Palette Generator</h1>
+            <hr class="dull--line">
+            <p class="header__subtitle">Press the spacebar to generate color palettes!</p>
+            <hr class="dull--line">
+        </header>
+        <!-- - Color container has 5 boxes to hold random generated colors.
+             - Each color box has two icons - copy and view shades. 
+             - 'copy' - copy the current color
+             - 'view shades' - to view different shades of the color and 
+                it will allow the user to change the color.
+             -  input element of type color is used to generate user color change wizard.
+             -  tooltip text is supported on mouse hover over the icons.
+        -->
+        <div class="container">
+            <!-- Color box #1 -->
+            <div class="container__box">
+                <div class="container__box-btn"> 
+                    <i class="fa-solid fa-table-cells fa-icon">
+                        <input class="container__color-wizard" type="color"></>
+                        <span class="container__tooltip-text">View shades</span>
+                    </i>
+                    <i class="fa-solid fa-clone fa-icon">
+                        <span class="container__tooltip-text">Copy</span>
+                    </i>
+                </div>     
+            </div>
+            <!-- Color box #2 -->
+            <div class="container__box">
+                <div class="container__box-btn">
+                    <i class="fa-solid fa-table-cells fa-icon">
+                        <input class="container__color-wizard" type="color"></>
+                        <span class="container__tooltip-text">View shades</span>
+                    </i>
+                    <i class="fa-solid fa-clone fa-icon">
+                        <span class="container__tooltip-text">Copy</span>
+                    </i>
+                </div> 
+            </div>
+            <!-- Color box #3 -->
+            <div class="container__box">
+                <div class="container__box-btn">
+                    <i class="fa-solid fa-table-cells fa-icon">
+                        <input class="container__color-wizard" type="color"></>
+                        <span class="container__tooltip-text">View shades</span>
+                    </i>   
+                    <i class="fa-solid fa-clone fa-icon">
+                        <span class="container__tooltip-text">Copy</span>
+                    </i>
+                </div> 
+            </div>
+            <!-- Color box #4 -->
+            <div class="container__box">
+                <div class="container__box-btn">
+                    <i class="fa-solid fa-table-cells fa-icon">
+                        <input class="container__color-wizard" type="color"></>
+                        <span class="container__tooltip-text">View shades</span>
+                    </i>  
+                    <i class="fa-solid fa-clone fa-icon">
+                        <span class="container__tooltip-text">Copy</span>
+                    </i>
+                </div> 
+            </div>
+            <!-- Color box #5 -->
+            <div class="container__box">
+                <div class="container__box-btn">
+                    <i class="fa-solid fa-table-cells fa-icon">
+                        <input class="container__color-wizard" type="color"></>
+                        <span class="container__tooltip-text">View shades</span>
+                    </i>   
+                    <i class="fa-solid fa-clone fa-icon">
+                        <span class="container__tooltip-text">Copy</span>
+                    </i>
+                </div> 
+            </div>
+            
+        </div>
+        <div class="copy-confirmation"></div>
+        <!-- Link to script -->
+        <script src="script.js"></script>
+    </body>
+</html>
